@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.animation{
+    display: inline-block;
+    cursor: pointer;
+    opacity:0;
+
+    transform: translateY(0) rotateZ(-280);
+
+}
+
+/* Trigger animation when the parent card is hovered so the image
+   stays at the final position while the card is hovered. */
+.card:hover .animation {
+    animation: popUp 0.5s ease-in-out forwards;
+}
+@keyframes popUp {
+    0% {
+        transform:translatey(0px), scale(0.8);
+        opacity:0;
+
+    }
+    100% {
+        transform:translatey(-100px) scale(1.1);
+        opacity:1;
+    }
+}

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Smooth scroll for all anchor links */
+a[href^="#"] {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced scroll performance */
+* {
+  scroll-behavior: smooth;
+}
