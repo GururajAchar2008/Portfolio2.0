@@ -11,11 +11,12 @@ const home = () => {
         <a href="#skills" className='bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 duration-300'>My Skills</a>
       </div>
       <div className='w-[45%]'>
-        <img src="/heroImage.png" alt="hero-img" className='animate-pulse w-full h-100'/>
+        <img src="/profile_new_small.jpeg" alt="hero-img" className='animate-pulse w-full h-100'/>
       </div>
       </div>
     </section>
   )
 }
+
 
 export default home
