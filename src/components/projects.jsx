@@ -7,9 +7,9 @@ const projects = () => {
     <section id="projects" className='pt-10 scroll-smooth scroll-mt-10 h-auto w-full h-[80%] flex-col items-center justify-around bg-[#050505]'>
       <h1 className=' w-full text-4xl font-bold text-center pt-10 text-white'>Some of my featured <span className="text-blue-500">Projects</span></h1>
      <div className='bg-black text-white w-full h-auto flex-col items-center justify-center mt-10 p-10 gap-10'>
-        <ProjectsBox name="GuruJI AI Chat Bot"
+        <ProjectsBox name="Velkor AI Chat Bot"
          image="/GuruJI_logo (1).jpg"
-         description="The Guru JI AI is an AI Chat Bot built
+         description="The Velkor AI is an AI Chat Bot built
                       using React Front-End with Tailwindcss using
                       the python's Flask Back-End. This Entire app is build 
                       usinf Openrouter's API key and integrated in the APP"
